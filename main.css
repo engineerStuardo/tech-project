@@ -311,3 +311,61 @@ nav ul li a:hover {
     min-width: 60vw;
   }
 }
+
+/* services */
+#services {
+  padding: 40px;
+}
+
+.service {
+  margin: 50px 0;
+  display: flex;
+}
+
+.service-icon .fas,
+.service-icon .fab,
+.service-icon .far {
+  font-size: 60px;
+  color: #2b98f0;
+  margin-right: 20px;
+}
+
+.service-subtitle {
+  text-transform: capitalize;
+  color: #2b98f0;
+  font-size: 20px;
+}
+
+.service-info {
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+
+.service:hover .fas,
+.service:hover .fab,
+.service:hover .far,
+.service:hover .service-subtitle {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.service:hover .service-info {
+  color: rgb(147, 147, 147);
+}
+
+@media screen and (min-width: 576px) {
+  .services-center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width: 972px) {
+  .services-center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
