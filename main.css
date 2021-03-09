@@ -328,17 +328,20 @@ nav ul li a:hover {
   font-size: 60px;
   color: #2b98f0;
   margin-right: 20px;
+  transition: color 0.7s ease;
 }
 
 .service-subtitle {
   text-transform: capitalize;
   color: #2b98f0;
   font-size: 20px;
+  transition: color 0.7s ease;
 }
 
 .service-info {
   margin-top: 10px;
   line-height: 1.5em;
+  transition: color 0.7s ease;
 }
 
 .service:hover .fas,
