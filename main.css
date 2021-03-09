@@ -689,6 +689,7 @@ form input::placeholder {
   font-size: 30px;
   text-align: center;
   background: #191919;
+  color: #c9c9c9
   transition: background 1s ease;
 }
 
