@@ -478,3 +478,52 @@ nav ul li a:hover {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* numbers section */
+#numbers {
+  padding: 40px;
+}
+
+.number {
+  margin: 20px 0;
+  text-align: center;
+  transition: transform 1s ease;
+}
+
+.number:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.number .fas {
+  font-size: 60px;
+  color: #2b98f0;
+}
+
+.number h2 {
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: 900;
+}
+
+.number h5 {
+  font-size: 23px;
+  color: #c9c9c9;
+  transition: color 1s ease;
+}
+
+.number:hover h5 {
+  color: #575757;
+}
+
+@media screen and (min-width: 576px) {
+  .numbers-center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 850px) {
+  .numbers-center {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
